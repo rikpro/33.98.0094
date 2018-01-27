@@ -1,4 +1,5 @@
 """
+1ste toevoeging
 This module defines the send functionality to send commands to LED displays.
 
 @author: Stijn Deroo
