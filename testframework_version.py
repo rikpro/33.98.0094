@@ -1,1 +1,1 @@
-version = 6.71 
+version = 7.24 
