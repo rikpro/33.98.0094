@@ -68,7 +68,7 @@ class TestSpecsXlsx(object):
         device = base.split("_P52")[0]
         print "device: ", device
 
-        xlsxfile = os.path.join(self.outputfolder,
+        xlsxfile = os.path.join(os.path.normpath(self.outputfolder.strip('"')),
                                 device + "_P52_1.01" + ".xlsx")
 
         if xlsxfile is not None:
